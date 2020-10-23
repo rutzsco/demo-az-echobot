@@ -12,8 +12,6 @@ stages:
   displayName: Build
   jobs:
   - job: Build
-    pool:
-      name: $(vmImage)
 
     steps:
       - task: DotNetCoreCLI@2
